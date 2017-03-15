@@ -4,7 +4,6 @@ Q1.
 R: O barramento de endereços pode ser maior do que o barramento de dados, pois quanto maior o barramento de dados, maior pode ser a
 memória. O barramento de endereços apenas indica o endereço dos dados que serão utilizados, enquanto o barramento de dados que irá
 escrever ou ler as informações da memória.
-
   
 
 Q2.
@@ -41,7 +40,9 @@ R:  0x80 em 0x0200
     0xAB em 0x0202
     0xCD em 0x0203
 
+
 Q6.
 R:Cada variável utilizará dois registradores, então para fazer essa operação serão utilizados pelo menos 4 registradores.
 Fazendo a soma dos valores menos significativos para armazenar em um registrados para uma das partes do resultado, e a parte mais
-significativa deve ser somada e somar algum "carry" que venha da operação dos valores menos significativos. Assim teremos 2 registradores com o resultado da operação, tendo a possibilidade do resultado ter extrapolado o valor que pode ser armazenado.
+significativa deve ser somada e somar algum "carry" que venha da operação dos valores menos significativos. Assim teremos 2
+registradores com o resultado da operação, tendo a possibilidade do resultado ter extrapolado o valor que pode ser armazenado.
