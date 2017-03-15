@@ -1,2 +1,47 @@
 15/03/2017
 
+Q1. 
+R: O barramento de endereços pode ser maior do que o barramento de dados, pois quanto maior o barramento de dados, maior pode ser a
+memória. O barramento de endereços apenas indica o endereço dos dados que serão utilizados, enquanto o barramento de dados que irá
+escrever ou ler as informações da memória.
+
+  
+
+Q2.
+R: A memória RAM é volátil, então os dados nela são perdidos quando ela é desligada. A memória ROM é não-volátil, então diferente da
+memória RAM os dados não são perdidos. E a velocidade da memória RAM é maior do que a da memória ROM.
+  
+
+Q3.
+	(a)
+R: Na memória RAM que é a memória de dados. O valor de 'i' só é importante enquanto o programa é executado, após o programa ser
+encerrado, os dados de 'i' podem ser descartados sem problema, pois valor para 'i' será atribuido novamente se o programa for executado
+novamente.
+
+	(b)
+R: Na memória ROM, esse programa pode ser utilizado novamente mesmo que o computador seja desligado, a menos que seja apagado
+manualmente.
+
+
+Q4.
+R: A arquitetura Harvard permite que a leitura de dados e de programa sejam simultâneas por terem barramentos de dados e programas
+separados, e isso o torna mais eficiente. A arquitetura Von Neumann é mais simples já que as memórias ROM e RAM estão juntas.
+
+
+Q5.
+	(a)
+R:  0xCD em 0x0200
+    0xAB em 0x0201
+    0x51 em 0x0202
+    0x80 em 0x0203
+
+  (b)
+R:  0x80 em 0x0200
+    0x51 em 0x0201
+    0xAB em 0x0202
+    0xCD em 0x0203
+
+Q6.
+R:Cada variável utilizará dois registradores, então para fazer essa operação serão utilizados pelo menos 4 registradores.
+Fazendo a soma dos valores menos significativos para armazenar em um registrados para uma das partes do resultado, e a parte mais
+significativa deve ser somada e somar algum "carry" que venha da operação dos valores menos significativos. Assim teremos 2 registradores com o resultado da operação, tendo a possibilidade do resultado ter extrapolado o valor que pode ser armazenado.
