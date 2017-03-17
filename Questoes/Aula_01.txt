@@ -1,0 +1,23 @@
+Data: 17/03/2017 (atrasado)
+
+1. O que são sistemas embarcados?
+R:
+
+2. O que são sistemas microprocesssados?
+R: 
+
+3. Apresente aplicações de sistemas embarcados:
+	(a) Para a indústria automotiva;
+R:
+
+	(b) Para eletrodomésticos;
+R:
+
+	(c) Para automação industrial.
+R:
+
+4. Cite arquiteturas possíveis e as diferenças entre elas.
+R:
+
+5. Por que usamos o MSP430 na disciplina, ao invés de outro microcontrolador?
+R:
